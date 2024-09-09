@@ -1,0 +1,18 @@
+{
+    "1": {
+    "user": "Gus",
+    "city": "Chicago, IL",
+    "content":"First Post!"
+    },
+    "2" :{
+    "id":2,
+    "user": "Ethan",
+    "city": "San Francisco, CA",
+    "content":"Second Post!"
+},
+    "3" :{
+    "id":3,
+    "user": "Gus",
+    "city": "Chicago, IL",
+    "content":"Third Post!"
+}}

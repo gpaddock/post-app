@@ -13,10 +13,6 @@ const Header = (props) => {
   )
 }
 
-Header.defaultProps = {
-    title: "no-name goofy"
-}
-
 Header.propTypes = {
     title: PropTypes.string.isRequired
 }
