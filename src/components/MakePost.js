@@ -1,10 +1,27 @@
 import {useState} from 'react'
 
-const MakePost = () => {
+const MakePost = ({onPost}) => {
   const [content, setContent] = useState('')
   const [location, setLocation] = useState('')
+  const time = new Date(Date.now())
+
+  const onSubmit = (e) => {
+    e.preventDefault()
+
+    if(!content || !location){
+        const err = !content ? "post!" : "location!"
+        alert("Please add a " + err)
+        return
+    }
+
+    onPost({content, location, time})
+
+    setContent('')
+    setLocation('')
+  }
+
   return (
-    <form className='add-form'>
+    <form className='add-form' onSubmit={onSubmit}>
         <div className='form-control'>
             <label>Post</label>
             <input

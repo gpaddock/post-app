@@ -6,7 +6,7 @@ const Post = ({ post, onDelete }) => {
         <h3>{post.user + ": " + post.content}
         <FaTimes style={{color:'red', cursor:'pointer'}} onClick={() => onDelete(post.id)}/>
         </h3>
-        <p>{post.time}</p>
+        <p>{post.time.toUTCString()}</p>
 
     </div>
   )
