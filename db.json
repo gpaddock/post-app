@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": "Gus",
+      "city": "Chicago, IL",
+      "content": "Moved to Chicago to start career.",
+      "time": "1725909527671"
+    },
+    {
+      "id": "2",
+      "user": "Ethan",
+      "city": "San Francisco, CA",
+      "content": "Looking at dental school here",
+      "time": "1725909527671"
+    },
+    {
+      "id": "82ab",
+      "content": "Considering for future interest",
+      "location": "Washington, D.C",
+      "time": "2024-09-09T19:29:00.733Z"
+    }
+  ]
+}
